@@ -1,0 +1,95 @@
+//
+@mixin flex_Col{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  color: black;
+
+}
+
+.headerImg{
+  display: flex;
+  padding: 0 5%;
+  justify-content: center;
+  margin-bottom: 20px;
+  img{
+    width: 400px;
+  }
+}
+.pseudoBar{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  a{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 50px;
+    &:hover{
+      color: red;
+    }
+  }
+}
+
+.container {
+  background-image: url('/img/fondo-pag-speciali.jpg');
+  background-size: contain;
+  padding: 0 5%;
+  h1{
+    margin: 30px 0;
+    color: darkblue;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .imgContRow{
+    display: flex;
+    flex-wrap: wrap;
+    .imgCont{
+      display: flex;
+      width: 30%;
+      padding: 20px;
+    }
+  }
+  .h1News{
+    color: black;
+    background-color: green;
+  }
+  .h1prod{
+    color: white;
+    background-color: black;
+  }
+}
+
+footer{
+  background-image: url(/img/footer-montagne-bottom.jpg);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  display: flex;
+  p{
+    padding: 5px 0;
+  }
+  a{
+    color: black;
+  }
+  .colMain{
+    @include flex_Col;
+    img{
+      width: 50%;
+      padding-bottom: 20px;
+    }
+  }
+  .col{
+    @include flex_Col;
+  }
+}

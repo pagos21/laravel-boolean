@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: black;
+}
+
+.headerImg {
+  display: flex;
+  padding: 0 5%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.headerImg img {
+  width: 400px;
+}
+
+.pseudoBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pseudoBar a {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 50px;
+}
+
+.pseudoBar a:hover {
+  color: red;
+}
+
+.container {
+  background-image: url("/img/fondo-pag-speciali.jpg");
+  background-size: contain;
+  padding: 0 5%;
+}
+
+.container h1 {
+  margin: 30px 0;
+  color: darkblue;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.container .imgContRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .imgContRow .imgCont {
+  display: flex;
+  width: 30%;
+  padding: 20px;
+}
+
+.container .h1News {
+  color: black;
+  background-color: green;
+}
+
+.container .h1prod {
+  color: white;
+  background-color: black;
+}
+
+footer {
+  background-image: url(/img/footer-montagne-bottom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+footer p {
+  padding: 5px 0;
+}
+
+footer a {
+  color: black;
+}
+
+footer .colMain {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px 15px;
+}
+
+footer .colMain img {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px 15px;
+}
+
