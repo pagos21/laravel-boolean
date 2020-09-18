@@ -1,8 +1,6 @@
 //
 @mixin flex_Col{
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+  width: 300px;
   padding: 10px 15px;
 }
 
@@ -29,6 +27,7 @@ header{
 .pseudoBar{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   a{
     color: black;
@@ -57,7 +56,7 @@ header{
     flex-wrap: wrap;
     .imgCont{
       display: flex;
-      width: 30%;
+      width: 450px;
       padding: 20px;
     }
   }
@@ -76,6 +75,10 @@ footer{
   background-size:  cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
   p{
     padding: 5px 0;
   }

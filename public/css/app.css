@@ -22,6 +22,7 @@ header {
 .pseudoBar {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -57,7 +58,7 @@ header {
 
 .container .imgContRow .imgCont {
   display: flex;
-  width: 30%;
+  width: 450px;
   padding: 20px;
 }
 
@@ -76,6 +77,9 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer p {
@@ -87,9 +91,7 @@ footer a {
 }
 
 footer .colMain {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+  width: 300px;
   padding: 10px 15px;
 }
 
@@ -99,9 +101,7 @@ footer .colMain img {
 }
 
 footer .col {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+  width: 300px;
   padding: 10px 15px;
 }
 
