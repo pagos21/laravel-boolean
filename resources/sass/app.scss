@@ -54,6 +54,9 @@ header{
   .imgContRow{
     display: flex;
     flex-wrap: wrap;
+    img{
+      width: 100%;
+    }
     .imgCont{
       display: flex;
       width: 450px;

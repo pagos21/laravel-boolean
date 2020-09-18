@@ -9,7 +9,7 @@
       if ($dato['tipo'] == 'lunga') {
         ?>
         <div class="imgCont">
-          <img src="<?php echo $dato['src']; ?>" alt="404">
+          <img src="<?php echo $dato['src']; ?>" title="<?php echo $dato['titolo']; ?> " alt="404">
 
         </div>
         <?php

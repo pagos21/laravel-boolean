@@ -56,6 +56,10 @@ header {
   flex-wrap: wrap;
 }
 
+.container .imgContRow img {
+  width: 100%;
+}
+
 .container .imgContRow .imgCont {
   display: flex;
   width: 450px;
