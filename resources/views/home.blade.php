@@ -16,6 +16,10 @@
       }
     }
     ?>
+    {{-- Alternativa con Blade --}}
+    {{-- @foreach ($iterable as $value)
+      <h2> {{ $value['titolo'] }}</h2>
+    @endforeach --}}
   </div>
 
   <h1>LE CORTE</h1>
